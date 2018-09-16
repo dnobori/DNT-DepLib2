@@ -1,0 +1,3 @@
+[submodule "submodules/DNT-DepLib1"]
+	path = submodules/DNT-DepLib1
+	url = https://github.com/dnobori/DNT-DepLib1.git

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNT-DepLibTestApp2", "DNT-DepLibTestApp2\DNT-DepLibTestApp2.csproj", "{89035195-9CD2-4AC0-8051-82C7B5FB19EF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DNT-DepLib2", "DNT-DepLib2\DNT-DepLib2.shproj", "{140C626E-1655-49A8-A799-58477E1FF2F6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DNT-DepLib1", "submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.shproj", "{C97DE7AF-F6A6-4874-B51A-B10007005048}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DNT-DepLib2\DNT-DepLib2.projitems*{140c626e-1655-49a8-a799-58477e1ff2f6}*SharedItemsImports = 13
+		submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.projitems*{c97de7af-f6a6-4874-b51a-b10007005048}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89035195-9CD2-4AC0-8051-82C7B5FB19EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89035195-9CD2-4AC0-8051-82C7B5FB19EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89035195-9CD2-4AC0-8051-82C7B5FB19EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89035195-9CD2-4AC0-8051-82C7B5FB19EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8191CFE-4ED3-4C0E-A21F-AB5586BAD13B}
+	EndGlobalSection
+EndGlobal
